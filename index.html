@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Namco - Attleboro Reviews</title>
+		<title>Namco - Peabody Reviews</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -23,8 +23,8 @@ animationEnabled: true,
             type: "pie",
             showInLegend: true,
             dataPoints: [
-                { y: 1, legendText: "Poor Customer Service", indexLabel: "No Help" },
-                { y: 0, legendText: "Hard to find products and/or messy store", indexLabel: "Messy" },
+                { y: 2, legendText: "Poor Customer Service", indexLabel: "No Help" },
+                { y: 1, legendText: "Hard to find products and/or messy store", indexLabel: "Messy" },
                 { y: 1, legendText: "The staff was very cold and didn't know anything", indexLabel: "Unprofessional" },
             ]
         },
@@ -43,9 +43,9 @@ var chart = new CanvasJS.Chart("chartContainer2",
             type: "pie",
             showInLegend: true,
             dataPoints: [
-                { y: 2, legendText: "Helpful Customer Service", indexLabel: "Help" },
-                { y: 3, legendText: "Had products available and well-presented", indexLabel: "Availability" },
-                { y: 2, legendText: "The staff was very friendly and knowledgable", indexLabel: "Professional" },
+                { y: 5, legendText: "Helpful Customer Service", indexLabel: "Help" },
+                { y: 2, legendText: "Had products available and well-presented", indexLabel: "Availability" },
+                { y: 4, legendText: "The staff was very friendly and knowledgable", indexLabel: "Professional" },
             ]
         },
         ]
@@ -70,13 +70,13 @@ var chart = new CanvasJS.Chart("chartContainer3",
         {
           type: "line",
           dataPoints: [
-              { x: new Date(2018, 07, 02), y: 5 },
-              { x: new Date(2018, 09, 02), y: 5 },
-              { x: new Date(2018, 09, 26), y: 1 },
-              { x: new Date(2019, 00, 31), y: 5 },
-              { x: new Date(2019, 01, 15), y: 1 },
-              { x: new Date(2019, 02, 03), y: 5 },
-              { x: new Date(2019, 02, 04), y: 5 }
+              { x: new Date(2018, 05, 20), y: 5 },
+              { x: new Date(2018, 05, 22), y: 5 },
+              { x: new Date(2018, 07, 04), y: 5 },
+              { x: new Date(2018, 07, 17), y: 1 },
+              { x: new Date(2018, 07, 24), y: 5 },
+              { x: new Date(2018, 09, 05), y: 5 },
+              { x: new Date(2019, 00, 09), y: 5 }
             ]
         }
         ]
@@ -122,8 +122,8 @@ chart.render();
 				<!-- Header -->
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/Namco_Logo_CMYK.png" alt="" /></span>
-						<h1>Attleboro</h1>
-						<p>Google Review Stats for Namco in Attleboro</p>
+						<h1>Peabody</h1>
+						<p>Google Review Stats for Namco in Peabody</p>
 							<span class="fa fa-star checked"></span>
 							<span class="fa fa-star checked"></span>
 							<span class="fa fa-star checked"></span>
@@ -212,7 +212,7 @@ chart.render();
 									<p>You can see all the reviews for the store by pressing the button.</p>
 									<div class="container">
 										<div class="col-md-6">
-											<p><input type="text" id="placeid" class="form-control" placeholder="Place ID" value="ChIJUx2nt2hd5IkRVe7rDXgXtNE"/></p>
+											<p><input type="text" id="placeid" class="form-control" placeholder="Place ID" value="ChIJoeCI85wS44kR1QGzFdleLBI"/></p>
 											<p><button class="go btn btn-block btn-primary">Get Reviews</button></p>
 											<div class="results"></div>
 										</div>
